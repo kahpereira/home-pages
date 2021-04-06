@@ -22,3 +22,49 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* MENU */
+
+.menu {
+  max-width: 1040px;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h2 {
+  display: inline-block;
+  font-weight: 500;
+}
+
+.logo img {
+  display: inline-block;
+  padding-right: 10px;
+  margin-left: 15px;
+}
+
+.nav-bar ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-bar a {
+  display: block;
+  margin: 0px 15px;
+  padding: 10px;
+  font-weight: 500;
+  color: #232174;
+}
+
+.nav-bar a:hover {
+  background: #6c00d9;
+  color: #fff;
+  border-radius: 10px;
+}
