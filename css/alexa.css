@@ -130,15 +130,24 @@ img {
 .buttons a {
   display: block;
   padding: 10px 12px;
-  margin-right: 20px;
   color: #232174;
   font-weight: 500;
 }
 
-.buttons a:hover {
+.buttons a:nth-child(1) {
   background: #6c00d9;
   color: #fff;
   border-radius: 10px;
+}
+
+.buttons img {
+  width: 20px;
+  float: left;
+  margin-left: 20px;
+}
+
+.buttons span {
+  margin-left: 5px;
 }
 
 .arrow {
